@@ -1,0 +1,48 @@
+.jumbotron{
+    background-image: url(../img/images.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.jumbotron img{
+    width: 100px;
+    height: 100px;
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.74);
+}
+.jumbotron h1,.jumbotron p{
+    text-shadow: 5px 5px 6px rgb(255, 255, 255);
+}
+section{
+    min-height: 450px;
+}
+.col-md-4{
+    margin-bottom: 10px;
+}
+.footer{
+    color: gainsboro;
+    background-color: rgb(33, 34, 33)
+}
+.footer a{
+    text-decoration: none;
+    color: azure;
+}
+.footer a:hover{
+    color: aquamarine;
+}
+#topBtn{
+    width: 40px;
+    height: 40px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.74);
+    position: fixed;
+    left: 50%;
+    opacity: .7;
+    bottom: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-left: -20px;
+    border: none;
+    display: none;
+    text-decoration: none;
+}
